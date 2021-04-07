@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         val recyclerViewUser = findViewById<RecyclerView>(R.id.rvUser)
         val adapter = UserRecyclerViewAdapter()
 
+
+
         recyclerViewUser.adapter = adapter
         recyclerViewUser.layoutManager = LinearLayoutManager(this)
 
